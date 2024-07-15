@@ -64,11 +64,11 @@ class Customers(db.Model):
         if not admin:
             # Create admin user
             admin_user = Customers(
-                user_name='adi burshannn',
-                email='adiii@gmail.com',
+                user_name='adi burshan',
+                email='adi@gmail.com',
                 age=22,
                 password=bcrypt.generate_password_hash('adi1234').decode('utf-8'),
-                phone_number='053-2815999',
+                phone_number='053-2815989',
                 is_admin=True,
             )
             db.session.add(admin_user)
